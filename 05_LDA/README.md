@@ -34,6 +34,8 @@ fig = plt.figure()
 ax = Axes3D(fig, rect=[0,0,1,1], elev=30, azim=20)
 plt.scatter(X[:,0], X[:,1], X[:,2], marker='o')
 ```
+![](https://user-images.githubusercontent.com/26485327/46123367-006fb980-c259-11e8-8a24-fe442c0d2558.png)
+
 # Issue 3 - Generate dataset
 
 ```python
