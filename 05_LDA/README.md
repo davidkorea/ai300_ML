@@ -16,13 +16,9 @@ ax2.set_title('bad')
 2. Option2 
 
 ```python
-fig = plt.figure(figsize=(16,6))
-ax1 = fig.add_subplot(1,2,1)
-ax1.scatter(X_lda[:,0], X_lda[:,1], c=y, cmap=plt.cm.viridis_r)
-ax1.set_title('good')
-ax2 = fig.add_subplot(1,2,2)
-ax2.scatter(X_lda[:,0], X_lda[:,1])
-ax2.set_title('bad')
+fig, ax = plt.subplots(1,2)
+ax[0].scatter(X_pca[:,0], X_pca[:,1], c=y)
+ax[1].scatter(X_pca[:,0], X_pca[:,1])
 ```
 
 
