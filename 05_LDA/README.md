@@ -12,6 +12,7 @@ ax2 = fig.add_subplot(1,2,2)
 ax2.scatter(X_lda[:,0], X_lda[:,1])
 ax2.set_title('bad')
 ```
+![](https://user-images.githubusercontent.com/26485327/46123449-8855c380-c259-11e8-8679-81b704ac977a.png)
 
 2. Option2 
 
@@ -20,6 +21,7 @@ fig, ax = plt.subplots(1,2)
 ax[0].scatter(X_pca[:,0], X_pca[:,1], c=y)
 ax[1].scatter(X_pca[:,0], X_pca[:,1])
 ```
+![](https://user-images.githubusercontent.com/26485327/46123454-8e4ba480-c259-11e8-8d87-572e5ed5a855.png)
 
 # Issue 2 - Axes3D
 
