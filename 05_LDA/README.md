@@ -21,7 +21,6 @@ ax[0].scatter(X_pca[:,0], X_pca[:,1], c=y)
 ax[1].scatter(X_pca[:,0], X_pca[:,1])
 ```
 
-
 # Issue 2 - Axes3D
 
 ```python
@@ -33,7 +32,7 @@ fig = plt.figure()
 ax = Axes3D(fig, rect=[0,0,1,1], elev=30, azim=20)
 plt.scatter(X[:,0], X[:,1], X[:,2], marker='o')
 ```
-# Issue 3 
+# Issue 3 - Generate dataset
 
 ```python
 from sklearn.datasets.samples_generator import make_classification
