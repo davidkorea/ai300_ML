@@ -27,8 +27,19 @@ ax[1].scatter(X_pca[:,0], X_pca[:,1])
 ```python
 from mpl_toolkits.mplot3d import Axes3D
 ```
+
 ```python
 fig = plt.figure()
 ax = Axes3D(fig, rect=[0,0,1,1], elev=30, azim=20)
 plt.scatter(X[:,0], X[:,1], X[:,2], marker='o')
+```
+# Issue 3 
+
+```python
+from sklearn.datasets.samples_generator import make_classification
+```
+```python
+X,y = make_classification(n_samples=1000, n_features=3, n_redundant=0, 
+                          n_classes=3, n_informative=2, n_clusters_per_class=1, 
+                          class_sep=0.5, random_state=10)
 ```
