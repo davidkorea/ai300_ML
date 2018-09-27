@@ -47,3 +47,7 @@ X,y = make_classification(n_samples=1000, n_features=3, n_redundant=0,
                           n_classes=3, n_informative=2, n_clusters_per_class=1, 
                           class_sep=0.5, random_state=10)
 ```
+
+
+-----
+![](https://github.com/davidkorea/ai300_ML/blob/master/05_LDA/ai300-lda.png)
