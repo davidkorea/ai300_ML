@@ -1,13 +1,13 @@
 
 # Issue 1 - plt_subplot
 
-## Option1
+1. Option1
 
 ```python
 
 ```
 
-## Option2 
+2. Option2 
 
 ```pytgon
 
