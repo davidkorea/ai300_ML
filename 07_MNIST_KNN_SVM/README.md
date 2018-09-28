@@ -36,7 +36,7 @@ plt.ylabel('accuracy')
 ```
 ![k](https://user-images.githubusercontent.com/26485327/46202908-0cd83d00-c353-11e8-873c-12c84def6df5.png)
 
-
+-> [7_iris_cross_validation.ipynb](https://github.com/davidkorea/MEACHINE_LEARNING/blob/master/1_iris/7_iris_cross_validation.ipynb)
 
 # Issue 2 - Select samples randomly
 
