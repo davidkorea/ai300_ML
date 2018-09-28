@@ -102,7 +102,9 @@ in tuple[2]:
  [7 2 1 ... 4 5 6]
 --------------------------------------------------
 ```
-**pickle.load() returns 3 results(tuples), so we need to pass them to 3 paras: training_data, valid_data, test_data**
+**pickle.load() returns 3 results(tuples)**
+**each tuple has features ndarray & labels array**
+**so we need to pass them to 3 paras: training_data, valid_data, test_data**
 
 ```python
 training_data, valid_data, test_data = pickle.load(f, encoding='unicode-escape')
