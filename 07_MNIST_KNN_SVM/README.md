@@ -7,7 +7,22 @@ validation_curve(estimator, X, y, param_name, param_range, cv=5)
 ```
 ```python
 k_list = [1, 5, 10, 20, 50]
-train_scores, valid_scores = validation_curve(KNeighborsClassifier(), valid_sample, valid_label, 'n_neighbors', k_list, cv=5)
+train_scores, valid_scores = validation_curve(KNeighborsClassifier(), valid_sample, valid_label, 
+                            'n_neighbors', k_list, cv=5)
+>> train_scores
+array([[1.        , 1.        , 1.        , 1.        , 1.        ],
+       [0.93207547, 0.91864831, 0.9025    , 0.92384519, 0.90807453],
+       [0.89937107, 0.88485607, 0.88625   , 0.89013733, 0.88944099],
+       [0.87169811, 0.85106383, 0.86      , 0.85642946, 0.85962733],
+       [0.79119497, 0.75093867, 0.7875    , 0.78651685, 0.78012422]])
+
+>> valid_scores
+array([[0.86829268, 0.91044776, 0.9       , 0.84924623, 0.9025641 ],
+       [0.82926829, 0.88557214, 0.91      , 0.85427136, 0.88205128],
+       [0.83414634, 0.89552239, 0.89      , 0.84422111, 0.9025641 ],
+       [0.80487805, 0.88557214, 0.815     , 0.8241206 , 0.89230769],
+       [0.70243902, 0.82587065, 0.755     , 0.75879397, 0.77948718]])
+
 ```
 
 
