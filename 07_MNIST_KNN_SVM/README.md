@@ -34,6 +34,7 @@ plt.title('cross validation')
 plt.xlabel('k') 
 plt.ylabel('accuracy')
 ```
+![k](https://user-images.githubusercontent.com/26485327/46202908-0cd83d00-c353-11e8-873c-12c84def6df5.png)
 
 
 
