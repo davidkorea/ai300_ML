@@ -12,14 +12,23 @@ print(train_sample)
 print(train_label)
 for i,v in enumerate(train_sample):
     plot(v, train_label[i])
-```
-```
+    
+>>
 [ 2732 43567 42613]
 [[0. 0. 0. ... 0. 0. 0.]
  [0. 0. 0. ... 0. 0. 0.]
  [0. 0. 0. ... 0. 0. 0.]]
 [4 1 7]
 ```
+```python
+import matplotlib.pyplot as plt
+def plot(arr_784, label):
+    arr_28 = arr_784.reshape(-1,28)
+    plt.imshow(arr_28, cmap=plt.cm.Greys)
+    plt.title(label)
+    plt.show()
+```
+
 
 # Issue 1 - pkl.gz
 
