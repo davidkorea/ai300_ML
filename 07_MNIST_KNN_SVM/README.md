@@ -1,4 +1,16 @@
 
+# Issue 3 - validation_curve
+```python
+from sklearn.model_selection import validation_curve
+
+validation_curve(estimator, X, y, param_name, param_range, cv=5)
+```
+```python
+k_list = [1, 5, 10, 20, 50]
+train_scores, valid_scores = validation_curve(KNeighborsClassifier(), valid_sample, valid_label, 'n_neighbors', k_list, cv=5)
+```
+
+
 
 # Issue 2 - Select samples randomly
 
