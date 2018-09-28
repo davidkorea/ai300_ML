@@ -1,6 +1,6 @@
 
 
-# Iuuse 2 - Select samples randomly
+# Issue 2 - Select samples randomly
 
 ```python
 np.random.seed(0)
