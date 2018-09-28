@@ -107,7 +107,8 @@ in tuple[2]:
 **so we need to pass them to 3 paras: ```train_data, valid_data, test_data```. train_data[0]=features, train_data[1]=labels**
 
 ```python
-train_data, valid_data, test_data = pickle.load(f, encoding='bytes')
+with gzip.open('../input/mnist.pkl.gz') as f:
+    train_data, valid_data, test_data = pickle.load(f, encoding='bytes')
 ```
 
 
