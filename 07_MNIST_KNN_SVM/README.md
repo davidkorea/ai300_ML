@@ -2,8 +2,7 @@
 # Issue 3 - validation_curve
 ```python
 from sklearn.model_selection import validation_curve
-
-validation_curve(estimator, X, y, param_name, param_range, cv=5)
+# validation_curve(estimator, X, y, param_name, param_range, cv=5)
 ```
 ```python
 k_list = [1, 5, 10, 20, 50]
@@ -23,6 +22,17 @@ array([[0.86829268, 0.91044776, 0.9       , 0.84924623, 0.9025641 ],
        [0.80487805, 0.88557214, 0.815     , 0.8241206 , 0.89230769],
        [0.70243902, 0.82587065, 0.755     , 0.75879397, 0.77948718]])
 
+```
+```python
+train_scores = np.mean(train_scores, axis=1)
+valid_scores = np.mean(valid_scores, axis=1)
+
+plt.plot(k_list, train_scores, 'ro', label='train_scores')
+plt.plot(k_list, valid_scores, 'bo', label='valid_scors')
+plt.legend()
+plt.title('cross validation') 
+plt.xlabel('k') 
+plt.ylabel('accuracy')
 ```
 
 
