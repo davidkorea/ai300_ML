@@ -2,7 +2,24 @@
 
 # Iuuse 2 - Select samples randomly
 
-
+```python
+np.random.seed(0)
+train_idx = np.random.choice(len(train_data[0]), 3)
+print(train_idx)
+train_sample = train_data[0][train_idx]
+train_label = train_data[1][train_idx]
+print(train_sample)
+print(train_label)
+for i,v in enumerate(train_sample):
+    plot(v, train_label[i])
+```
+```
+[ 2732 43567 42613]
+[[0. 0. 0. ... 0. 0. 0.]
+ [0. 0. 0. ... 0. 0. 0.]
+ [0. 0. 0. ... 0. 0. 0.]]
+[4 1 7]
+```
 
 # Issue 1 - pkl.gz
 
