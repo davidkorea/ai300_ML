@@ -44,13 +44,14 @@ open ```.gz``` first and then load pickle.
 ```
 
 ```python
+>>
 print('Unzip pickle dataset len: %s, type: %s ' %(len(a), type(a)))
 for idx,value in enumerate(a):
     print('in tuple[%s]:\n len=%s (data + label), \n\n data: len(data)=%s \n %s, \n each data row len=%s,\n\n label:\n %s' %
           (idx,len(value),len(value[0]),value[0], len(value[0][0]),value[1]))
     print('-----'*10)
     
-
+>>
 Unzip pickle dataset len: 3, type: <class 'tuple'> 
 in tuple[0]:
  len=2 (data + label), 
