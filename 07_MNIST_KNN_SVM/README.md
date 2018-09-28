@@ -28,6 +28,11 @@ def plot(arr_784, label):
     plt.title(label)
     plt.show()
 ```
+![4](https://user-images.githubusercontent.com/26485327/46191624-2ec1c780-c333-11e8-98e7-f60127529c92.png)
+
+![1](https://user-images.githubusercontent.com/26485327/46191622-2d909a80-c333-11e8-807d-1bf0c2334cea.png)
+
+![7](https://user-images.githubusercontent.com/26485327/46191629-2ff2f480-c333-11e8-88f3-7752f2ccd264.png)
 
 
 # Issue 1 - pkl.gz
