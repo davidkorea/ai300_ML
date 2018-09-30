@@ -3,11 +3,17 @@
 
 # Issue 1 - 特征之间的相关性
 
-1. ```sns.pairplot(data_df)```
+1. sns.pairplot
+```python
+sns.pairplot(data_df)
+```
 
-2. ```pd.scatter_matrix(data_df, diagonal='kde', # default=hist,
+2. pd.scatter_matrix
+```python
+pd.scatter_matrix(data_df, diagonal='kde', # default=hist,
                      figsize=(16,9),
-                     range_padding=0.1)```
+                     range_padding=0.1)
+```
                      
 3. sns.jointplot
   ```python
