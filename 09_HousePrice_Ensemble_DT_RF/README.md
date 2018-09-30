@@ -1,6 +1,6 @@
 
 1. muggle-ensemble -> different model [https://github.com/davidkorea/MEACHINE_LEARNING/blob/master/3_wine_quality/12_ensemble_learning.ipynb](https://github.com/davidkorea/MEACHINE_LEARNING/blob/master/3_wine_quality/12_ensemble_learning.ipynb)
-2. decision tree visualization
+2. decision tree visualization [https://github.com/davidkorea/Iris_decision_tree/blob/master/iris_dt.ipynb](https://github.com/davidkorea/Iris_decision_tree/blob/master/iris_dt.ipynb)
 
 # Ensemble
 1. Adaboost(Regression, Classifier)
