@@ -1,5 +1,10 @@
+
 1.muggle-ensemble
 2.decision tree visualization
+
+# Ensemble
+1. Adaboost(Regression, Classifier)
+2. RandomForest(Regression, Classifier)
 
 # Issue 1 - 特征之间的相关性
 
