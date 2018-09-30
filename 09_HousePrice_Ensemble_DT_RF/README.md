@@ -1,6 +1,6 @@
 
-1.muggle-ensemble
-2.decision tree visualization
+1. muggle-ensemble -> different model
+2. decision tree visualization
 
 # Ensemble
 1. Adaboost(Regression, Classifier)
