@@ -1,5 +1,5 @@
 
-1. muggle-ensemble -> different model
+1. muggle-ensemble -> different model [https://github.com/davidkorea/MEACHINE_LEARNING/blob/master/3_wine_quality/12_ensemble_learning.ipynb](https://github.com/davidkorea/MEACHINE_LEARNING/blob/master/3_wine_quality/12_ensemble_learning.ipynb)
 2. decision tree visualization
 
 # Ensemble
