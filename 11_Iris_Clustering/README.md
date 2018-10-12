@@ -1,5 +1,7 @@
 # Issue 5 - sns.scatterplot() vs sns.FacetGrid().map().add_legend()
 
+ONLY sns.scatterplot() can show label on legend(), BUT plt.scatter() could not
+
 1. sns.FacetGrid
 ```python
 sns.FacetGrid(test_df, hue='label',size=5).map(plt.scatter, 'petallength','petalwidth').add_legend()
