@@ -1,4 +1,22 @@
+Issue 5 - sns.scatterplot() vs sns.FacetGrid().map().add_legend()
 
+1. sns.FacetGrid
+```python
+sns.FacetGrid(test_df, hue='label',size=5).map(plt.scatter, 'petallength','petalwidth').add_legend()
+sns.FacetGrid(pred_df, hue='label',size=5).map(plt.scatter, 'petallength','petalwidth').add_legend()
+```
+
+
+2. sns.scatterplot()
+```python
+fig = plt.figure(figsize=(16,6))
+ax1 = fig.add_subplot(1,2,1)
+ax1 = sns.scatterplot('petallength','petalwidth', hue='label', data=test_df, palette=plt.cm.plasma_r)
+ax1.set_title('test_df')
+ax2 = fig.add_subplot(1,2,2)
+ax2 = sns.scatterplot('petallength','petalwidth', hue='label', data=pred_df, palette=plt.cm.plasma_r)
+ax2.set_title('pred_df')
+```
 
 # Issue 4 - cmap, palette
 
