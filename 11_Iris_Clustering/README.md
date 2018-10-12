@@ -5,7 +5,7 @@
 sns.FacetGrid(test_df, hue='label',size=5).map(plt.scatter, 'petallength','petalwidth').add_legend()
 sns.FacetGrid(pred_df, hue='label',size=5).map(plt.scatter, 'petallength','petalwidth').add_legend()
 ```
-
+![](https://i.loli.net/2018/10/12/5bc04243cdac0.png)
 
 2. sns.scatterplot()
 ```python
