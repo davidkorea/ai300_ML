@@ -1,3 +1,12 @@
+
+
+# Issue 4 - cmap, palette
+
+```plt.scatter(cmap=)```
+
+```sns.scatterplot(palette=)```
+
+
 # Issue 3 - if...elif..else transfer to lambda expression
 
 ```python
