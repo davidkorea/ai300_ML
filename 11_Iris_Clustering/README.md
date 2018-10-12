@@ -17,6 +17,7 @@ ax2 = fig.add_subplot(1,2,2)
 ax2 = sns.scatterplot('petallength','petalwidth', hue='label', data=pred_df, palette=plt.cm.plasma_r)
 ax2.set_title('pred_df')
 ```
+![](https://user-images.githubusercontent.com/26485327/46849326-fee1ec00-ce29-11e8-9d67-e5e395adf4b4.png)
 
 # Issue 4 - cmap, palette
 
