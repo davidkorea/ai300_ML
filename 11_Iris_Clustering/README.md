@@ -1,4 +1,4 @@
-Issue 5 - sns.scatterplot() vs sns.FacetGrid().map().add_legend()
+# Issue 5 - sns.scatterplot() vs sns.FacetGrid().map().add_legend()
 
 1. sns.FacetGrid
 ```python
