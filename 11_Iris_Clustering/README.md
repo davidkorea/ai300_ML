@@ -1,3 +1,9 @@
+# Issue 3 - if...elif..else transfer to lambda expression
+
+```python
+ data_df['label'].apply(lambda x: 0 if x==2 else 1 if x==0 else 2)
+```
+
 # Issue 2 - plt.rcParams
 
 ```python
