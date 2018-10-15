@@ -1,6 +1,6 @@
 
 # 3. Model
-- XGBoost, GBDT
+- XGBoost梯度提升树, GBDT
 - FM/FFM
 
 # 2. Hadoop生态
