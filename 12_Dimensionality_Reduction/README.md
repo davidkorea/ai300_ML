@@ -1,4 +1,7 @@
 
+# 3. Model
+- XGBoost, GBDT
+- FM/FFM
 
 # 2. Hadoop生态
 
