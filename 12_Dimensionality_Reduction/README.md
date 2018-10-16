@@ -7,7 +7,12 @@
 - 一次SATA机械硬盘随机读取， 几十毫秒
   - SSD的性能比SATA高出三个数量级， 价格只高出一倍
  
+ 2. SQL or NoSQL
  
+ - 传统关系型SQL数据库（RDBMS），对于机构化，非稀疏性数据的存储非常成熟稳定
+ - NoSQL的众多组建适合用户画像存储
+   - 像日志一样顺序追加写入，保证系统极高的写入吞吐量
+   - HBase, Riak, Tair, LSM-Tree(Log-strcutured Merge Tree)
 
 
 # 3. Model
