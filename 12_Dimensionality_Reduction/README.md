@@ -1,4 +1,6 @@
- # 存储选择
+ # 5. Elasticsearch(Apache Lucene)全文搜索
+ 
+ # 4. 存储选择
  
  1. 硬件选择
 - 一次内存随机读取， 几十纳秒
